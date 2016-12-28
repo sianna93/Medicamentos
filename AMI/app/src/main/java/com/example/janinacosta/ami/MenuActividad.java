@@ -2,9 +2,11 @@ package com.example.janinacosta.ami;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -55,6 +57,31 @@ public class MenuActividad extends AppCompatActivity {
         // Crear un nuevo adaptador
         adapter = new MenuAdapter(items);
         recycler.setAdapter(adapter);
+
+       /*
+        //Mio
+        int item=recycler.getAdapter().getItemCount();
+        Log.e("no sale", "item: " + item);
+        //action
+        recycler.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), ActividadLogin.class);
+                startActivity(i);
+            }
+        }); */
+
+        /*
+
+
+        botonLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), MenuActividad.class);
+                startActivity(i);
+            }
+        });*/
     }
 
 

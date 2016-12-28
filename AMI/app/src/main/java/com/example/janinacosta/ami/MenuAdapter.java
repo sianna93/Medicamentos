@@ -1,7 +1,10 @@
 package com.example.janinacosta.ami;
 
+import android.content.Intent;
 import android.graphics.Color;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,12 +34,45 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MenuViewHolder
             imagen = (ImageView) v.findViewById(R.id.imagen);
             colorLl = (LinearLayout) v.findViewById(R.id.fondo_color);
 
+            //Acciones a los cards
+            colorLl.setOnClickListener(new View.OnClickListener(){
 
+                @Override
+                public void onClick(View v) {
+                    final Intent intent;
+                    switch (getAdapterPosition()){
+                        /*case 0:
+                            intent = new Intent (v.getContext(),ActividadMedicamentosDia.class ); //modificar cuando estén creadas las actividades
+                            v.getContext().startActivity(intent);
+                            break;
+                        case 1:
+                            intent = new Intent (v.getContext(),ActividadListaMisMedicamentos.class );
+                            v.getContext().startActivity(intent);
+                            break;
+                        case 2:
+                            intent = new Intent (v.getContext(),ActividadHistorial.class );
+                            v.getContext().startActivity(intent);
+                            break;*/
+                        case 3:
+                            intent = new Intent (v.getContext(),ActividadLogin.class );
+                            v.getContext().startActivity(intent);
+                            break;
+                    }
+
+                }
+            });
         }
+
+
+
+
     }
 
     public MenuAdapter(List<MenuOpciones> items) {
         this.items = items;
+
+        //LinearLayout  card = (LinearLayout) findViewById(R.id.fondo_color);
+
     }
 
     @Override
@@ -55,6 +91,8 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MenuViewHolder
     public void onBindViewHolder(MenuViewHolder viewHolder, int i) {
         viewHolder.imagen.setImageResource(items.get(i).getImagen());
         viewHolder.colorLl.setBackgroundColor(Color.parseColor(items.get(i).getColor()));
+
+
 
         //codigo extra
         /*
