@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:tint="@android:color/darker_gray"
+                android:src="@drawable/ic_account_circle" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="32dp"
+                android:layout_weight="1"
+                android:id="@+id/tilNombres">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="@string/name"
+                    android:singleLine="true"
+                    android:id="@+id/txt_nombres" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/img_usuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:tint="@android:color/darker_gray"
+                android:src="@drawable/ic_account_circle" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="32dp"
+                android:layout_weight="1"
+                android:id="@+id/tilUsuario">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="@string/user"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="280dp"
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:id="@+id/img_pass"
+                android:layout_width="23dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:tint="@android:color/darker_gray"
+                android:src="@drawable/ic_key" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="32dp"
+                android:layout_weight="0.09"
+                android:id="@+id/tilContraseña">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="@string/pass"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="380dp">
+
+            <Button
+                android:text="@string/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_cancelar"
+                android:layout_weight="1"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:textColor="@color/colorAccent"
+                android:background="@android:drawable/dialog_holo_light_frame"/>
+
+            <Button
+                android:text="@string/ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_aceptar"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@android:color/white"
+                android:background="@android:drawable/dialog_holo_light_frame"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="Registrar Usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="51dp"
+            android:id="@+id/textView2"
+            android:textSize="26sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="normal|bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+</LinearLayout>

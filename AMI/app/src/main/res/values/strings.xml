@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MEDICAMENTOS</string>
+
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="name">Nombre y Apellidos</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">Aceptar</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="title_sign">Registrar Usuario</string>
+    <string name="sign">Registrarse</string>
+
+
+    <string-array name="names_array">
+        <item>Medicamentos del día</item>
+        <item>Mis medicamentos</item>
+        <item>Historial</item>
+        <item>Cerrar Sesión</item>
+    </string-array>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_usuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:tint="@android:color/darker_gray"
+                android:src="@drawable/ic_account_circle" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="32dp"
+                android:layout_weight="1"
+                android:id="@+id/til_Usuario">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="@string/user"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="200dp"
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:id="@+id/img_pass"
+                android:layout_width="23dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:tint="@android:color/darker_gray"
+                android:src="@drawable/ic_key" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="32dp"
+                android:layout_weight="0.09"
+                android:id="@+id/til_Contraseña">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:hint="@string/pass"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_login"
+                android:text="Ingresar"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@android:color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/dialog_holo_light_frame" />
+
+            <Button
+                android:id="@+id/boton_registrarse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrarse"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:textColor="@color/colorAccent"
+                android:background="@android:drawable/dialog_holo_light_frame"
+
+                android:onClick="abrirRegistrar" />
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="66dp"
+            android:id="@+id/textView"
+            android:textSize="26sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="normal|bold"
+            android:fontFamily="sans-serif" />
+
+    </RelativeLayout>
+</LinearLayout>

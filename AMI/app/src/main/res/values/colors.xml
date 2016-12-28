@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#59023B</color>
+    <color name="colorPrimaryDark">#231E2D</color>
+    <color name="colorAccent">#69043B</color>
+
+    <item name="blue" type="color">#59023B</item>
+    <item name="red" type="color">#59023B</item>
+    <item name="amarillo" type="color">#59023B</item>
+    <item name="magenta" type="color">#59023B</item>
+    
+    <integer-array name="initial_colors">
+        <item>@color/blue</item>
+        <item>@color/red</item>
+        <item>@color/amarillo</item>
+        <item>@color/magenta</item>
+
+    </integer-array>
+</resources>

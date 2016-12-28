@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_e1d6e09e98bb5680cd08e06654f079ad791e4e5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="abacba402db90b40e0e6ac4ad43c60f978d6f46b">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_72f3c010b82b2df672f2809fa0649d92a995c0a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_f9b054d2d352068f50ffddaa07feae31b82ced75\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_71f9bcf6f273cdd25a1db5b798e69b725fd622f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_cc6013f5f84876b9c4c9766fd63446ee1430e8dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_eb3732bb5cf0c6794db689323c4f9773fa3486f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_4ad4cf74a0f99fc9e8867a4f99253983440f5758\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_8f1e7929047c1f91d51e63d5bdb0d85fae5bcee0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_ee71a3d7ffef3a3bf8d5d2a57a1cce5fb9a7fbb5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_3c597b0578309e84cea006c1aa68d02003ad14ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_83eb12b9404e1769cd99eeb382875930d22b2939\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_f0bf42f9f34e82a86f1dd2a3f20c5e8f43c32aa8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_c94c909acde6ca0aa2e81dd51c249d3911daffff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_4a37e570e36db654903fc0bf288c07678e26ec41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_e57b97861e63d459a355e529e1e51edb77635194\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_a312c658a2ce6458ad07107f3827db6d40654124\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.1_9cfefd10dca2b26d904cf330e19403f499b21263\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_31c35ea2cab0e2c1154db36b0f5f3bb4b9042dd8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_50217a7d65578e04e859e9158543521c279321b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44c7a238a398d3d1370d1592ddd7187e55e714fe">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0c46136ba170c30d44890913d6e78993df5108bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\NuevoSDK\ProjectsAndroid\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_1cd38c75ed6e2760e70473ca4d8c43ebdc351a6b\classes.dex" />
+    </item>
+
+</items>
