@@ -44,11 +44,12 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MenuViewHolder
                         /*case 0:
                             intent = new Intent (v.getContext(),ActividadMedicamentosDia.class ); //modificar cuando estén creadas las actividades
                             v.getContext().startActivity(intent);
-                            break;
+                            break;*/
                         case 1:
                             intent = new Intent (v.getContext(),ActividadListaMisMedicamentos.class );
                             v.getContext().startActivity(intent);
                             break;
+                        /*
                         case 2:
                             intent = new Intent (v.getContext(),ActividadHistorial.class );
                             v.getContext().startActivity(intent);

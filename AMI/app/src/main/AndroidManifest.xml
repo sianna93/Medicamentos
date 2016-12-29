@@ -1,38 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.janinacosta.ami">
+    package="com.example.janinacosta.ami" >
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".ActividadLogin">
+        android:theme="@style/AppTheme" >
+        <activity android:name=".ActividadLogin" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".MenuActividad">
+        <activity android:name=".MenuActividad" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".ActividadRegistrar">
+        <activity android:name=".ActividadRegistrar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".ActividadListaMisMedicamentos">
+        <activity
+            android:name=".ActividadListaMisMedicamentos"
+            android:label="@string/title_activity_actividad_lista_mis_medicamentos"
+            android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+        <activity android:name=".ActividadCrearMedicamento" >
+        </activity>
+        <activity android:name=".Alarma" >
+        </activity>
+        <receiver android:name=".Alarm_Receiver" />
+        <service android:name=".RingtonePlayingService"    android:enabled="true"></service>
     </application>
 
 </manifest>

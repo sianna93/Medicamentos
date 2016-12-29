@@ -18,4 +18,8 @@
         <item>Historial</item>
         <item>Cerrar Sesión</item>
     </string-array>
+    <string name="title_activity_actividad_lista_medicamentos">ActividadListaMedicamentos</string>
+    <string name="title_activity_actividad_prueba">ActividadPrueba</string>
+    <string name="title_activity_actividad_lista_mis_medicamentos">ActividadListaMisMedicamentos
+    </string>
 </resources>
