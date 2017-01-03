@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:orientation="horizontal"
+    card_view:cardCornerRadius="1dp"
+    card_view:cardUseCompatPadding="true" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="16dp"
+        android:background="?android:selectableItemBackground"  >
+
+        <TextView
+            android:id="@+id/rvname"
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:padding="10dp"
+
+            android:text="Name"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_height="55dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignBottom="@+id/ic_delete" />
+
+        <TextView
+            android:id="@+id/rvfrecuencia"
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:padding="10dp"
+
+            android:text="frecuencia"
+            android:textColor="?android:attr/editTextColor"
+            android:layout_height="55dp"
+            android:textSize="16sp"
+            android:layout_alignTop="@+id/ic_delete"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit"
+            android:background="#FAFAFA"
+            android:layout_marginRight="19dp"
+            android:id="@+id/ic_edit"
+            android:layout_alignBottom="@+id/rvname"
+            android:layout_toStartOf="@+id/ic_delete" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"
+            android:background="#FAFAFA"
+            android:layout_marginRight="13dp"
+            android:layout_marginEnd="16dp"
+            android:id="@+id/ic_delete"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

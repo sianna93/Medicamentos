@@ -12,14 +12,19 @@
     <string name="sign">Registrarse</string>
 
 
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_details">Detalle del Medicamento</string>
+    <string name="title_activity_Nuevo_Medicamento">Nuevo Medicamento</string>
+    <string name="title_activity_Mis_Medicamentos">Mis Medicamentos</string>
+
+
     <string-array name="names_array">
         <item>Medicamentos del día</item>
         <item>Mis medicamentos</item>
         <item>Historial</item>
         <item>Cerrar Sesión</item>
     </string-array>
-    <string name="title_activity_actividad_lista_medicamentos">ActividadListaMedicamentos</string>
+
     <string name="title_activity_actividad_prueba">ActividadPrueba</string>
-    <string name="title_activity_actividad_lista_mis_medicamentos">ActividadListaMisMedicamentos
-    </string>
+
 </resources>

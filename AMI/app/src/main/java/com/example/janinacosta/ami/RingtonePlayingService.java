@@ -21,7 +21,7 @@ public class RingtonePlayingService extends Service {
     int startId;
     boolean  isRunning;
 
-    @Nullable
+    //@Nullable
     @Override
     public IBinder onBind(Intent intent) {
         return null;

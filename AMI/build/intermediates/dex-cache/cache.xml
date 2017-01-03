@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="5d1772d7f37159312c2cc2addae6243e0336fe02">
+        sha1="319c70733840a5f900b491e01f3bdc3b9b6758d3">
         <dex dex="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_eba6affffb8ce73f8083e85151834f3660cc6406\classes.dex" />
     </item>
     <item
@@ -18,6 +18,15 @@
         revision="25.0.1"
         sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
         <dex dex="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.1_2ce990ec313d8c1cdbada28a6e3d3a1baceb1eef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_a1d8da4403437e7eeedddb7075f39289916be6b0\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -39,6 +48,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ad23fdb891a09e87d6e13eafa0c77dd7d18bcaf9">
+        <dex dex="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_63d83e1b7055bc95213a11b3c960a656d96e765a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -54,51 +72,6 @@
         revision="25.0.1"
         sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
         <dex dex="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_4704c0eaeda99f497773da888d26bfa29c705eec\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_1b1d871c5a68f14fddb86f15103e82bf90cfa8db\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_46b3110dd5a058ec3398928b9bae79254c3c875d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_ee9d2b0aec7d18d2f47f2a87938081549266696a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_a1d8da4403437e7eeedddb7075f39289916be6b0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="e13a00fb9d70abbc27c099fe6b59423fea570bec">
-        <dex dex="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_63d83e1b7055bc95213a11b3c960a656d96e765a\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -138,21 +111,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.1"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_d61e77132f2f1fe24f218ac0108e6e9b5031ae90\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
         sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
         <dex dex="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_9c45976a1d3373d3526d2eff96c7b12c4349a3d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_d61e77132f2f1fe24f218ac0108e6e9b5031ae90\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -174,6 +147,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_1b1d871c5a68f14fddb86f15103e82bf90cfa8db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
@@ -189,6 +171,24 @@
         revision="25.0.1"
         sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
         <dex dex="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_772d2dd4498a43e5fb35da49d07ea452739230b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_46b3110dd5a058ec3398928b9bae79254c3c875d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Personal\Documents\ESPOL\AMI\Medicamentos\Medicamentos\AMI\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_ee9d2b0aec7d18d2f47f2a87938081549266696a\classes.dex" />
     </item>
 
 </items>
