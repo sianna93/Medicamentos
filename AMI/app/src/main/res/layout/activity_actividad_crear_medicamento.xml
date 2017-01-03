@@ -40,7 +40,6 @@
                 android:ems="10"
                 android:inputType="text"
                 android:hint="Nombre del medicamento"
-                android:singleLine="true"
                 android:id="@+id/txt_nombres" />
         </android.support.design.widget.TextInputLayout>
     </LinearLayout>

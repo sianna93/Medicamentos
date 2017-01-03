@@ -33,7 +33,7 @@ public class RingtonePlayingService extends Service {
         Log.i("LocalService", "Received start id " + startId + ": " + intent);
 
         //fetch the extra string values
-        String state= intent.getExtras().getString("extra");
+        String state= intent.getExtras().getString("extra"); //IDEA: enviar array
 
         Log.e("Ringtone extra is ", state);
 
@@ -82,6 +82,8 @@ public class RingtonePlayingService extends Service {
 
             //set up the notification call command
             notify_manager.notify(0,notification_popup);
+
+
 
         }else if(this.isRunning && startId ==0){
             Log.e("there is music", "and you want end");
